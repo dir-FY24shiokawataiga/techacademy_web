@@ -6,13 +6,17 @@ header
 #wrapper
 {
 	height: 100px;
+	display: flex;
+	justify-content: space-between;
 }
 #main
 {
+	width: 60%;
 	background-color: #ddffdd;
 }
 aside
 {
+	width: 30%;
 	background-color: #ffddff;
 }
 footer
